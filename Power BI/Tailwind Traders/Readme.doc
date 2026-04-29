@@ -6,6 +6,7 @@ Preparing Sales Data using Excel
 3) Create a column for Net Revenue and calculate the amount for each row (J)
 
 Configure Data Sources
+Part 1 - Tailwind Tarders Sales data
 1. Load the Tailwind Traders Sales file into Power BI and select Transform.
 2. Within Power Query, find the OrderID column and set the data type to Whole Number.
 3. To complete optimization, assign the following data types for the columns:
@@ -19,3 +20,45 @@ Configure Data Sources
         Rating = Fixed Decimal Number
 4. In the View tab, upon selecting the Column Quality, Column Distribution, 
 and Column Profile boxes, ensure the Valid percentage is 100% for the OrderID column.
+
+Part 2 -Purchase data
+1. Load the Purchases file into Power BI and select Transform. 
+2. To complete optimization, assign the following data types for the columns:
+
+        PurchaseID = Whole Number
+        OrderID = Whole Number
+        Return Policy (Days) = Whole Number
+        Purchase Date = Date
+        Warranty (Months) = Whole Number
+        Supplier = Text
+        Last Visited = Date
+        ReturnStatus = Text
+
+Part 3 - Countries data
+1. Load the Countries file into Power BI and select Transform. 
+2. To complete optimization, assign the following data types for the columns:
+
+        Country ID = Whole Number
+        Exchange ID = Whole Number
+        Country = Text
+Part 4 - Load the Historical currency exchange data
+1. Select Get Data, choose Python script, and then paste the following code into the script window in Power BI:
+
+"""
+        import pandas as pd
+        from io import StringIO
+        
+        data = """Exchange ID;ExchangeRate;Exchange Currency
+        1;1;USD
+        2;0,75;GBP
+        3;0,85;EUR
+        4;3,67;AED
+        5;1,3;AUD"""
+        df = pd.read_csv(StringIO(data), sep=';')
+        
+        # Return the transformed dataframe
+        df
+"""
+
+
+This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
