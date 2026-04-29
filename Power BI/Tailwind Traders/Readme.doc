@@ -5,3 +5,17 @@ Preparing Sales Data using Excel
 2) Create a column for Total Tax and calculate the amount for each row (I)
 3) Create a column for Net Revenue and calculate the amount for each row (J)
 
+Configure Data Sources
+1. Load the Tailwind Traders Sales file into Power BI and select Transform.
+2. Within Power Query, find the OrderID column and set the data type to Whole Number.
+3. To complete optimization, assign the following data types for the columns:
+
+        Gross Product Price = Fixed Decimal Number
+        Tax Per Product = Fixed Decimal Number
+        Quantity Purchased = Whole Number
+        Loyalty Points = Whole Number
+        Stock = Whole Number
+        Product Category = Text
+        Rating = Fixed Decimal Number
+4. In the View tab, upon selecting the Column Quality, Column Distribution, 
+and Column Profile boxes, ensure the Valid percentage is 100% for the OrderID column.
