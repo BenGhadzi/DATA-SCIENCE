@@ -60,5 +60,13 @@ Part 4 - Load the Historical currency exchange data
         df
 """
 
+Designing and Developing a data model
+1. Create a relationship between Countries data and Exchange date
+(1:1 cardinality, Cross filter both, Active relationship)
+2. Create a relationship between the Sales and Countries tables
+(Many:1 Cardinality, Cross filter both, Active relationship)
+3. Create a relationship between the Purchases and Sales tables
+(1:1 Cardinality, Cross filter both, Active relationship)
+
 
 This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
