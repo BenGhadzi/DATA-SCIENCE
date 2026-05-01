@@ -97,5 +97,7 @@ Designing and Developing a data model
 7. Create a relationship between the Sales and Sales in USD
 (1:1 Cardinality, Active relationship)
 
+CREATING MEASURES FOR DATA STORYTELLING
+1) Creating a measure to represent Yearly profit margin. Profit / Net Revenue. First I created a calculated column for Profit and used for the new measure.
 
 This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
