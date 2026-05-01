@@ -105,4 +105,8 @@ CREATING MEASURES FOR DATA STORYTELLING
 5) Testing all calculated measures using performance analyzer
 Results of test:> ... https://github.com/BenGhadzi/DATA-SCIENCE/blob/main/Power%20BI/Tailwind%20Traders/PowerBIPerformanceData.json
 
+CREATING REPORTS
+1) Sales overview report is created. It features 6 unique visuals, which gives clarity to sales globally and by country of operations
+2)
+
 This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
