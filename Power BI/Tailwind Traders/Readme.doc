@@ -103,6 +103,6 @@ CREATING MEASURES FOR DATA STORYTELLING
 3) Calculating Year-to-date Profit measure. USIN PROFIT IN USD
 4) Calculating Year-to-date median sales measure from the sales in USDtable.
 5) Testing all calculated measures using performance analyzer
-Results of test:> ...
+Results of test:> ... https://github.com/BenGhadzi/DATA-SCIENCE/blob/main/Power%20BI/Tailwind%20Traders/PowerBIPerformanceData.json
 
 This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
