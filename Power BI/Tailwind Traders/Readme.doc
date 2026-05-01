@@ -101,5 +101,7 @@ CREATING MEASURES FOR DATA STORYTELLING
 1) Creating a measure to represent Yearly profit margin. Profit / Net Revenue. First I created a calculated column for Profit and used for the new measure.
 2) Creating a measure to represent Quarterly profit. to use profit in USD, I CALCULATE THE COLUMN FIRST
 3) Calculating Year-to-date Profit measure. USIN PROFIT IN USD
+4) Calculating Year-to-date median sales measure from the sales table.
+
 
 This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
