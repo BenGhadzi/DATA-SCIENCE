@@ -147,4 +147,21 @@ CREATING DASHBOARDS
         Yearly Profit Margin by Country donut chart
         Yearly Profit Margin over Time area chart
 
+CONFIGURING ALERTS AND SUBSCRIPTIONS
+1) Access the Manage Alerts menu for the Sum of Gross Revenue USD KPI tile.
+Create a new alert titled Gross Revenue USD below $400 with the following configurations:
+
+        In the Condition section, set the threshold at $400.
+        Set a frequency of at most every 24 hours.
+
+2) Access the report’s Sales Overview tab.
+Access the Median Sales Distribution by Country pie chart and note down the country with the highest Median Sales value.
+Create a subscription for the Sales Overview report with the following configurations:
+
+        Title the subscription Sales Weekly Summary.
+        Set the Start date to the current date and the End date to 12/31/2025.
+        For the frequency, select Weekly and select Monday.
+        Set the Scheduled time to 5:00 AM.
+
+
 This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
