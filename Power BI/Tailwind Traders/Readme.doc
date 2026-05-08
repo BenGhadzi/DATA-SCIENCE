@@ -108,5 +108,43 @@ Results of test:> ... https://github.com/BenGhadzi/DATA-SCIENCE/blob/main/Power%
 CREATING REPORTS
 1) Sales overview report is created. It features 6 unique visuals, which gives clarity to sales globally and by country of operations
 2) Profits overview report is created. it features 6 unique visuals. Later published to Power BI service for further action.
+3) Report was publishes to Power BI service, Fabric version.
+(https://app.powerbi.com/groups/me/reports/a1493ef2-02c5-4a64-b8b7-e82e8efb2dcc/985fae68eb5050ca5d90?experience=power-bi)
+
+CREATING DASHBOARDS
+1) New Dashboard called Tailwind Traders Executive Dashboard has been created.
+2) Pin the following visuals to the Tailwind Traders Executive Dashboard:
+
+        Loyalty Points by Country bar chart
+        Quantity Sold by Product column chart
+        Median Sales Distribution by Country pie chart
+        Media Sales Over Time line chart
+3) Locate and pin the following Sales Overview card visualizations to the Tailwind Traders dashboard:
+
+        Sum of Stock card
+        Sum of Quantity Purchased card
+        Median sales card
+4) Locate and pin the following Profit Overview core visualization to the Tailwind Traders Executive Dashboard:
+
+        Net Revenue by Product bar chart
+        Yearly Profit Margin by Country donut chart
+        Year Profit Margin over Time area chart
+5) Locate and pin the following items to the Tailwind Traders Executive Dashboard:
+
+        YTD Profit card
+        Sum of Net Revenue USD card
+        Sum of Gross Revenue USD KPI
+6) Select Mobile Layout from the Edit menu and pin your card visuals to the dashboard in the following order:
+
+        Sum of Net Revenue USD to the left and Sum of Quantity Purchased cards to the right.
+        Median Sales to the left and YTD Profit cards to the right.
+        Sum of Gross Revenue USD KPI across the full width of the layout
+        Loyalty Points by Country bar chart
+        Quantity Sold by Product column chart
+        Median Sales Distribution by Country pie chart
+        Median Sales over Time line chart
+        Net Revenue by Product bar chart
+        Yearly Profit Margin by Country donut chart
+        Yearly Profit Margin over Time area chart
 
 This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
