@@ -163,5 +163,27 @@ Create a subscription for the Sales Overview report with the following configura
         For the frequency, select Weekly and select Monday.
         Set the Scheduled time to 5:00 AM.
 
+3) Access the Sales Overview report page in the Report page dropdown and ensure that the toggle switches for the following options are activated:
+
+        Permission to view the report in Power BI
+        Link to report in Power BI
+        Report page preview
+        Activate the subscription.
+
+4) Access the report’s Profit Overview tab.
+Create a subscription to the report with the following configurations:
+Name the subscription Profit Weekly Summary.
+
+        Set the Start date to the current date and the End date to 12/31/2025.
+        Set the frequency to Weekly and select Monday, Wednesday and Friday as the days of the week.
+        Set the Scheduled time to 6:00 AM.
+
+5) Access the Profit Overview report page in the Report page dropdown and ensure that the toggle switches for the following options are activated:
+
+        Permission to view the report in Power BI
+        Link to report in Power BI
+        Report page preview
+        Activate the subscription.
+
 
 This is work product of Microsoft Power BI course on Cousera. It serves as a guide for the final product.
